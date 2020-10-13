@@ -32,7 +32,7 @@ describe('User', () => {
     })
 
      it('avoid creating an existing user', (done)=> {
-    // // TODO create this test
+   /* // // TODO create this test
     const user = {
       firstname: 'Sergei',
       lastname: 'Kudinov'
@@ -44,7 +44,7 @@ describe('User', () => {
         expect(result," Warning: the user already exists").to.be.equal(null)
         done()
       })
-    })
+    })*/
     // // Warning: the user already exists
    
   })
