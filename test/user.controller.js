@@ -31,7 +31,7 @@ describe('User', () => {
       })
     })
 
-     it('avoid creating an existing user', (done)=> {
+    // it('avoid creating an existing user', (done)=> {
    /* // // TODO create this test
     const user = {
       firstname: 'Sergei',
@@ -42,15 +42,15 @@ describe('User', () => {
         expect(user.lastname).to.exist();
         expect(err).to.be.equal(null)
         expect(result," Warning: the user already exists").to.be.equal(null)
-        */done()
+        done()*/
      // })
-    })
+    //})
     // // Warning: the user already exists
    
-  })
+  //})
      
 
-   describe('Get', ()=> {
+   /*describe('Get', ()=> {
   //   // TODO Create test for the get method
        it('get a user by username', (done) => {
 
@@ -67,16 +67,16 @@ describe('User', () => {
     done()
   })
   //     // 2. Then, check if the result of the get method is correct 
-          /* chai.request(server)
+           chai.request(server)
             .get('/user')
             .end((err, res) => {
                   res.should.have.status(200);
                   res.body.should.be.a('array');
                   res.body.length.should.be.eql(0);//je crois que ça veut dire que tout marche
-              done();*/
+              done();
   //     done()
      })
-   })
+   })*/
 })
 
 });
