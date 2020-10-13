@@ -43,8 +43,8 @@ describe('User', () => {
         expect(err).to.be.equal(null)
         expect(result," Warning: the user already exists").to.be.equal(null)
         done()
-      })
-    })*/
+      })*/
+    })
     // // Warning: the user already exists
    
   })
