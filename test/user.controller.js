@@ -33,11 +33,14 @@ describe('User', () => {
 
      it('avoid creating an existing user', (done)=> {
     // // TODO create this test
-   
+    const user = {
+      firstname: 'Sergei',
+      lastname: 'Kudinov'
+    }
       userController.create(user, (err, result) => {
         expect(user.firstname).to.exist();
         expect(user.lastname).to.exist();
-        expect(err).errnot.to.be.equal(null)
+        expect(err).to.be.equal(null)
         expect(result," Warning: the user already exists").to.be.equal(null)
         done()
       })
