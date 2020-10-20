@@ -9,4 +9,9 @@ script:
 - npm install
 - echo 'Testing'
 - npm test
-  
+deploy:
+  provider: heroku
+  api_key:
+    secure: YOUR ENCRYPTED API KEY
+  apy_key:
+    secure: cDYej12SR/5fTUaHXSLjFFCO7hR5Cw2SkSFwa+bIT1d/nVQ22tEZKreeySgHay5WT9ntLBoGp/nwcfBY3I2UIVXMF2mAdAc3YkiGW+/AYJuvOIBqCQsR7rhxilHg6XF566l9EUM045vVkjqKvZzivh9OMJwFJ+CqJHKgssexPpBEdJbwtaxqZ8ojgJIP2RCAy6dKJQyHgPzEklBBkhSWVKKpu0QE16Bkm6+8CdiZuSJ+vW71XosOBh8FeGCjaLSE8WABgHSYPJW/t2MtQRy8hk/6rRsYpt3xfKbpADq91zhZ5lFRMRLF97ltkPIJ4p21cSXNjwmjZd8eV1yUPP9NMRoEEyp5Sb5oddjwsKzgoI5jryqjhblGKNO+Qk6/lB23eksIwd/rmgG4nZ5dunkKfGocOXtNi9Skyon5CXaovjraaVDArq1o3c83j+3i+v0l29X381UkgZm7AzdtdLvvP/DelWMfbuZravoQbqBG7qdbdELzozm7Pn72ehHVMfBoGBJiCIYtOCKCid6MruIpqFTBYpw7A5INc2aAmzCmzmGGYW55lU3orPovj+8rOO+zvH5++thwZyvG3mxlXsTi6eLF3DjDtrMR/g7pSFvuqaJ3iKsD7R3IxLiol2p7tzmk9BKp1RQ7UjpEooPB/86jWtYrL9FuHeSShybKWmG2ivQ=
