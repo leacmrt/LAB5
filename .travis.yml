@@ -13,3 +13,6 @@ deploy:
   provider: heroku
   apy_key:
     secure: mG2pQrQzKAzEpSuZXthnYEMwdSNgv50yVYKqctW1jkswtbx1DOu7VaBkWOWUFyk6t/9fSwqziILUdRkD1hAGc/9W7EmM+DtIdsihI2KYpxXZ7YeETQRVHStRZ4LTlobhLBqn70UZ5++OY9o1YR6JjPz4JiK+plshjHB5rjWa1rYNZ1H+aiGsVzuIeg4D1ONVJDYe0v8TpQuHkR/GNywMSLzh6mJ6PkJkg+1lTPDSOOQoVP/m7a9wYB88A9NO72+lPvFXKlD3HOPRDFN2q4iQ4Vp7aoXRUq79LHPBFJnTwlcKA1fHYT/krr+V08sQD0AxuShAdL/QID39kDY0D4uuqTuewTI/I1ocor/xV+bjDFO3rDs2U8nfJ4HSyhn/ldkt5JRAxrXlz/GOhURq77KltJ1kx+tI0Ej/1UhmuGWTzsIyllQ2DBa+KLQosh8yeNZ8TQ1imzdbTED5UJ3SDhG6J0ih+mOynCv6G/YtkxPa33dw+PPVoYh84ua9BZjY1YBvIP1ENMr54efsGfItOax6Q+mDBhqHI7EtNzBFFTpX8twnJQTWvVNJ6H0hexrsxMFswx6lxJ68j/54VnUjDQtiJIus3MyqVn34A4i/VtBgzVj1SQFTmAj/mMwxIQdpzP+7njdciqe1rgqox2TYvpe0Qkfapv0chFTWlQNKTulwXR8=
+    app: lab5cmrt
+    on:
+    repo: leacmrt/LAB5
